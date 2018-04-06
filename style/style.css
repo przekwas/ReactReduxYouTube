@@ -5,6 +5,8 @@
 
 .search-bar input {
     width: 75%;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
 .video-item img {
@@ -14,8 +16,13 @@
 .video-detail .details {
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 4px;
+}
+
+.video-detail .title {
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .list-group-item {
@@ -24,4 +31,8 @@
 
 .list-group-item:hover {
     background-color: #eee;
+}
+
+.video-list .title {
+    font-weight: bold;
 }

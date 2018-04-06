@@ -5,9 +5,11 @@ import _ from 'lodash';
 import SearchBar from './components/searchbar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/videodetail';
+
+//Import API Key from a file in .gitignore
 import YT_API_KEY from '../credentials';
 
-//Plug in your YouTube API key here
+//Plug in your YouTube API key here to let this run
 const YT_KEY = YT_API_KEY;
 
 class App extends Component {
